@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>c4</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="dist/style.css" rel="stylesheet">
+</head>
+
+<body style="margin-top:100px;">
+  <header class="header">
+    <h1 style="color:white;">Huaman Connect Four</h1>
+  </header>
+  <section class="section">
+    <div class="section-message"></div>
+    <canvas class="section-canvas"></canvas>
+  </section>
+  
+  <div class="mode">
+    <div class="mode-chooser">
+      <h1>Connect Four!</h1>
+      <p>Welcome to connect four game made by Huaman.</p>
+      <h2>Choose Game Mode:</h2>
+      <label><input class="mode-chooser-input" type="radio" name="mode" value="offline-ai" checked> Offline: Player vs HUAMAN AI</label><br />
+      <label><input class="mode-chooser-input" type="radio" name="mode" value="offline-human"> Offline: Player vs Player</label><br />
+      <button class="mode-chooser-submit">Start game</button>
+    </div>
+  </div>
+  <div class="message hidden">
+    <div class="message-body">
+      <div class="message-body-content"></div>
+      <button class="message-body-dismiss">OK</button>
+    </div>
+  </div>
+  <footer style="color:#FFFFFF;" class="footer">
+    By Nicholas Huaman
+  </footer>
+  <script src="dist/app.js"></script>
+</body>
+
+</html>
