@@ -583,7 +583,7 @@ function GameSelectUpdate(){
             window.location.href = "GITHUB_Games/Digger-master/index.html";
         break;
         case "_2048:MEME":
-            window.location.href = "GITHUB_Games/MEME/index.html";
+            window.location.href = "GITHUB_Games/MEME/LVL 1/index.html";
         break;
         case "_OhNo":
             window.location.href = "GITHUB_Games/OH, NO!/index.html";
