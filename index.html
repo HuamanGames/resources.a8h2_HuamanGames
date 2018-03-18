@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset='UTF-8'><meta name="robots" content="noindex"><link rel="shortcut icon" type="image/png" href="file:///home/chronos/u-653567c5163ae1a5f581539387f9fe31163b9e0d/Downloads/Comp%20Mods/Html/HuamanWebsite/SubWebsites/HuamanGames/images/logo.png" />
+    <title>Huaman Games!</title>
+    <script src="file:///E:/Programming/Html/HuamanWebsite/SubWebsites/MarioEasy/code/libtimidity.js" type="text/javascript"></script><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+            <script type="text/javascript" src="code/midi.js"></script>
+  <meta charset="UTF-8">
+  <title>BB Droid Game</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body onload="checkCookie()">
+    <!-- <div style="margin-top:-600px;margin-left:-1000px;">
+           <div style="color:white;" class="user"></div>
+           <div class="sign"><button onclick="signIn();">Sign in</button></div>
+       </div> -->
+       
+       
+       <p id="pimng" style="margin-top:-500px;font-size:10px;font-family:Impact;">Clock</p>
+       
+       
+       
+       
+        <div class="HuamanGames" style="text-align:center;">
+            <div class="container">
+                <div class="graphic">
+                    <div class="cup">
+                        <div class="slice"></div>
+                        <div class="slice"></div>
+                        <div class="slice"></div>
+                        <div class="slice"></div>
+                        <div class="slice"></div>
+                        <div class="slice"></div>
+                    </div>
+                </div>
+                <p class="title-intro">Huaman <span>Games</span></p>
+            </div>
+        </div>
+        
+        <div class="Loader" style="color:black;text-align:center;"><p>As you have a limited free account, you will have to wait 30 seconds to begin...</p><div style="font-size:130px;">Loading.</div><p>Don't worry, it's worth the wait... :)</p></div>
+        
+        <div class="signup" style="padding: 100px 84.9px;">
+            <div class="BackButton">Go Back</div>
+            <img style="margin-top:-50px;margin-left:200px" height="80px" width="80px" src="images/logo.png">
+            <p style="margin-top:-15px;font-size:50px">Temporary Sign Up to HuamanGames</p>
+            <div class="quoteinfo2" style="margin-top:-15px;font-size:20px;">Create a free temporary login. This will be deleted once you reload the page...</div>
+            <div style="margin-top:20px;font-size:25px;">Username:</div>
+            <div class="CreateUsernameBox"></div>
+            <div style="font-size:25px;margin-top:50px;">Password:</div>
+            <div class="CreatePasswordRange"><input type="password" class="CreatePasswordBox"><img onmouseout="document.querySelector('.CreatePasswordBox').type = 'password';" onmouseover="document.querySelector('.CreatePasswordBox').type = 'text';" class="pass-show" style="margin-left:430px" width="30px" height="30px" src="images/eye.png"></div>
+            <div class="submitsignup">Create Account</div>
+        </div>
+        
+        <div class="identity" style="padding: 100px 84.9px;">
+            <img style="margin-top:-50px;margin-left:200px" height="80px" width="80px" src="images/logo.png">
+            <p style="margin-top:-15px;font-size:50px">Login to Huaman Games</p>
+            <div class="quoteinfo" style="margin-top:-15px;font-size:20px;">Type in a login given by Nicholas Huaman or create a free temporary one...</div>
+            <div style="margin-top:20px;font-size:25px;">Username:</div>
+            <div class="UsernameBox"></div>
+            <div style="font-size:25px;margin-top:50px;">Password:</div>
+            <div class="PasswordRange"><input type="password" class="PasswordBox"><img onmouseout="document.querySelector('.PasswordBox').type = 'password';" onmouseover="document.querySelector('.PasswordBox').type = 'text';" class="pass-show" style="margin-left:430px" width="30px" height="30px" src="images/eye.png"></div>
+            <div class="NoAccount"style="color:lightblue;margin-top:50px;font-size:20px;"><u>Don't have an account? Create a temporary one now!</u></div>
+            <div class="submitIdentityButton">Submit</div>
+        </div>
+        
+        <div class="enterCommand">
+            <div>Type your command here...</div>
+            <div class="command">_</div>
+       </div>
+      <div onclick="DroidType();" class="instructions"><p>Works Offline!</p><p>Type '_help:commands' to see the commands and '_help:controls' for the controls.</p></div>
+      <div class="HackedMode" style="display:none;"></div>
+        
+        <div class="SquareJumpy">
+                <h1 id="Java" style="margin-top:30px; font-size: 100px; text-align: center; color:#FFFFFF;">Square Jump</h1>
+                <h1 class="countDown" style="margin-top:100px; font-size: 120px; text-align: center; color:#FFFFFF;">5</h1>
+                <h1 id="java" style="font-size: 45px; text-align: center; color:#FFFFFF;"> Made by Nicholas Huaman</h1>
+                <h1 id="Description" style="font-size: 45px; text-align: center; color:#FFFFFF;">A game website.</h1>
+                <h1 id="JAva" style="font-size: 45px; text-align: center; color:#FFFFFF;">Images and some code forked and edited off Github and Codepen.</h1>
+                <canvas id="canvas" width="0px" height="0px">Your browser doesn't support Huaman Games. Try another one!</canvas>
+        </div>
+        
+        <!--<div class="epilepsy" style="margin-top:600px;margin-left:700px;">Hover over me to go into non-epilepsy friendly mode.</div>-->
+        
+            <!--
+            Importing Scripts...
+            -->
+            <script  src="js/index.js"></script>
+            <script src="Enjine/core.js"></script>
+            <script src="Enjine/gameCanvas.js"></script>
+            <script src="Enjine/keyboardInput.js"></script>
+            <script src="Enjine/resources.js"></script>
+            <script src="Enjine/drawable.js"></script>
+            <script src="Enjine/state.js"></script>
+            <script src="Enjine/gameTimer.js"></script>
+            <script src="Enjine/camera.js"></script>
+            <script src="Enjine/drawableManager.js"></script>
+            <script src="Enjine/sprite.js"></script>
+            <script src="Enjine/spriteFont.js"></script>
+            <script src="Enjine/frameSprite.js"></script>
+            <script src="Enjine/animatedSprite.js"></script>
+            <script src="Enjine/collideable.js"></script>
+            <script src="Enjine/application.js"></script>
+            <script src="code/setup.js"></script>
+            <script src="code/spriteCuts.js"></script>
+            <script src="code/level.js"></script>
+            <script src="code/backgroundGenerator.js"></script>
+            <script src="code/backgroundRenderer.js"></script>
+            <script src="code/improvedNoise.js"></script>
+            <script src="code/notchSprite.js"></script>
+            <script src="code/character.js"></script>
+            <script src="code/levelRenderer.js"></script>
+            <script src="code/levelGenerator.js"></script>
+            <script src="code/spriteTemplate.js"></script>
+            <script src="code/enemy.js"></script>
+            <script src="code/fireball.js"></script>
+            <script src="code/sparkle.js"></script>
+            <script src="code/coinAnim.js"></script>
+            <script src="code/mushroom.js"></script>
+            <script src="code/particle.js"></script>
+            <script src="code/fireFlower.js"></script>
+            <script src="code/bulletBill.js"></script>
+            <script src="code/flowerEnemy.js"></script>
+            <script src="code/shell.js"></script>
+            <script src="code/titleState.js"></script>
+            <script src="code/loadingState.js"></script>
+            <script src="code/loseState.js"></script>
+            <script src="code/winState.js"></script>
+            <script src="code/mapState.js"></script>
+            <script src="code/levelState.js"></script>
+            <script src="code/music.js"></script>
+
+</body>
+
+</html>
