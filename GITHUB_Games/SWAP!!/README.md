@@ -1,8 +1,8 @@
-Swap
+BallMove
 =================
-Submission for the 2013 Github Game Jam
 
-By [@nmoroze](https://github.com/nmoroze) and [@themichaelyang](https://github.com/themichaelyang)
+
+By [@NHuamaster999](https://github.com/NHuamasterSPB999) and [@themichaelyang](https://github.com/themichaelyang)
 
 Official link: http://nmoroze.github.io/swap
 
