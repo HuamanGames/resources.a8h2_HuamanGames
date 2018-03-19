@@ -21,7 +21,7 @@ canvas.height = "0px";
 document.querySelector('.subtn').onclick = function() {
     CreateUserBoxEditTrue();
 };
-document.mainpart.onclick = function() {
+document.querySelector(".mainpart").onclick = function() {
     UserBoxEditTrue();
 };
 document.querySelector('.libtn').onclick = function() {
