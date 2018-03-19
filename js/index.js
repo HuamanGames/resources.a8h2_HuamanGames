@@ -1,6 +1,7 @@
 /*Actual Code*/
 initializefalse();
 document.querySelector(".enterCommand").style.display="none";
+document.querySelector(".Loader").style.display="none";
 document.querySelector(".instructions").style.display="none";
 document.querySelector("#pimng").style.display="none";
 document.querySelector(".HuamanGames").style.display="none";
