@@ -18,6 +18,13 @@ canvas.height = "0px";
 
 //UserBoxEditTrue();//Run login
 
+document.querySelector('.subtn').onclick = function() {
+    CreateUserBoxEditTrue();
+};
+document.querySelector('.libtn').onclick = function() {
+    UserBoxEditTrue();
+};
+
 document.querySelector('.BackButton').onclick = function() {
     document.querySelector(".identity").style.display="block";
     document.querySelector(".signup").style.display="none";
