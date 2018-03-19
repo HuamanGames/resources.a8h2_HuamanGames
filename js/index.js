@@ -15,7 +15,7 @@ var passwords = [];
 canvas.width = "0px";
 canvas.height = "0px";
 
-UserBoxEditTrue();//Run login
+//UserBoxEditTrue();//Run login
 
 document.querySelector('.BackButton').onclick = function() {
     document.querySelector(".identity").style.display="block";
