@@ -16,7 +16,7 @@ var passwords = [];
 canvas.width = "0px";
 canvas.height = "0px";
 
-//UserBoxEditTrue();//Run login
+RunMainPage();//Run mainpage
 
 document.querySelector('.subtn').onclick = function() {
     CreateUserBoxEditTrue();
@@ -27,6 +27,21 @@ document.querySelector(".mainpart").onclick = function() {
 document.querySelector('.libtn').onclick = function() {
     UserBoxEditTrue();
 };
+
+function RunMainPage(){
+    initializefalse();
+    document.querySelector(".allb4login").style.display="block";
+    document.querySelector(".libtn").style.display="block";
+    document.querySelector(".subtn").style.display="block";
+    document.querySelector(".enterCommand").style.display="none";
+    document.querySelector(".Loader").style.display="none";
+    document.querySelector(".instructions").style.display="none";
+    document.querySelector("#pimng").style.display="none";
+    document.querySelector(".HuamanGames").style.display="none";
+    document.querySelector(".identity").style.display="none";
+    document.querySelector(".signup").style.display="none";
+    document.body.style.background="url(https://static.pexels.com/photos/210186/pexels-photo-210186.jpeg)";
+}
 
 document.querySelector('.BackButton').onclick = function() {
     document.querySelector(".identity").style.display="block";
