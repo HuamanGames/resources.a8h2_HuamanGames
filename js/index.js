@@ -1,6 +1,6 @@
 /*Actual Code*/
-uponload();
-Update_onlink();
+uponload();             //This hides everything when the page is loaded...
+Update_onlink();        //This chooses what task the website should perform depending on the link in use...
 var GameType = 0;
 var StatementChoice=-1;
 var u = 1;
