@@ -23,6 +23,10 @@ function Update_onlink(){
         document.querySelector("#congrats").innerHTML="Congratulations, but...";
         console.log("Wow, you found me. Stop looking for trouble...");//Congratulations
     }
+    if (window.location=="https://huamangames.github.io/stay_loggedin-ca10472936h982810MmNk37127o162neriq639282-r829v238-HuamanGames/"){
+        Unpriviledged_StayLoggedin();
+    }
+    
 }
 
 document.querySelector('.subtn').onclick = function() {
@@ -37,6 +41,37 @@ document.querySelector(".mainpart").onclick = function() {
         u=1;
     }
 };
+
+function Unpriviledged_StayLoggedin(){
+    setTimeout(Password_Enter,10000);
+                document.querySelector(".allb4login").style.display="none";
+                document.querySelector(".libtn").style.display="none";
+                document.querySelector(".subtn").style.display="none";
+                document.querySelector(".identity").style.display="none";
+                document.querySelector(".Loader").style.display="block";
+                
+                setTimeout(function(){document.querySelector(".Loader").innerHTML="<p>As you have a limited free account, you will have to wait 10 seconds to begin...</p><div style='font-size:130px;'>Loading.</div><p>Don't worry, it's worth the wait... :)</p>";},0);
+                setTimeout(function(){document.querySelector(".Loader").innerHTML="<p>As you have a limited free account, you will have to wait 10 seconds to begin...</p><div style='font-size:130px;'>Loading..</div><p>Don't worry, it's worth the wait... :)</p>";},500);
+                setTimeout(function(){document.querySelector(".Loader").innerHTML="<p>As you have a limited free account, you will have to wait 9 seconds to begin...</p><div style='font-size:130px;'>Loading...</div><p>Don't worry, it's worth the wait... :)</p>";},1000);
+                setTimeout(function(){document.querySelector(".Loader").innerHTML="<p>As you have a limited free account, you will have to wait 9 seconds to begin...</p><div style='font-size:130px;'>Loading.</div><p>Don't worry, it's worth the wait... :)</p>";},1500);
+                setTimeout(function(){document.querySelector(".Loader").innerHTML="<p>As you have a limited free account, you will have to wait 8 seconds to begin...</p><div style='font-size:130px;'>Loading..</div><p>Don't worry, it's worth the wait... :)</p>";},2000);
+                setTimeout(function(){document.querySelector(".Loader").innerHTML="<p>As you have a limited free account, you will have to wait 8 seconds to begin...</p><div style='font-size:130px;'>Loading...</div><p>Don't worry, it's worth the wait... :)</p>";},2500);
+                setTimeout(function(){document.querySelector(".Loader").innerHTML="<p>As you have a limited free account, you will have to wait 7 seconds to begin...</p><div style='font-size:130px;'>Loading.</div><p>Don't worry, it's worth the wait... :)</p>";},3000);
+                setTimeout(function(){document.querySelector(".Loader").innerHTML="<p>As you have a limited free account, you will have to wait 7 seconds to begin...</p><div style='font-size:130px;'>Loading..</div><p>Don't worry, it's worth the wait... :)</p>";},3500);
+                setTimeout(function(){document.querySelector(".Loader").innerHTML="<p>As you have a limited free account, you will have to wait 6 seconds to begin...</p><div style='font-size:130px;'>Loading...</div><p>Don't worry, it's worth the wait... :)</p>";},4000);
+                setTimeout(function(){document.querySelector(".Loader").innerHTML="<p>As you have a limited free account, you will have to wait 6 seconds to begin...</p><div style='font-size:130px;'>Loading.</div><p>Don't worry, it's worth the wait... :)</p>";},4500);
+                setTimeout(function(){document.querySelector(".Loader").innerHTML="<p>As you have a limited free account, you will have to wait 5 seconds to begin...</p><div style='font-size:130px;'>Loading..</div><p>Don't worry, it's worth the wait... :)</p>";},5000);
+                setTimeout(function(){document.querySelector(".Loader").innerHTML="<p>As you have a limited free account, you will have to wait 5 seconds to begin...</p><div style='font-size:130px;'>Loading...</div><p>Don't worry, it's worth the wait... :)</p>";},5500);
+                setTimeout(function(){document.querySelector(".Loader").innerHTML="<p>As you have a limited free account, you will have to wait 4 seconds to begin...</p><div style='font-size:130px;'>Loading.</div><p>Don't worry, it's worth the wait... :)</p>";},6000);
+                setTimeout(function(){document.querySelector(".Loader").innerHTML="<p>As you have a limited free account, you will have to wait 4 seconds to begin...</p><div style='font-size:130px;'>Loading..</div><p>Don't worry, it's worth the wait... :)</p>";},6500);
+                setTimeout(function(){document.querySelector(".Loader").innerHTML="<p>As you have a limited free account, you will have to wait 3 seconds to begin...</p><div style='font-size:130px;'>Loading...</div><p>Don't worry, it's worth the wait... :)</p>";},7000);
+                setTimeout(function(){document.querySelector(".Loader").innerHTML="<p>As you have a limited free account, you will have to wait 3 seconds to begin...</p><div style='font-size:130px;'>Loading.</div><p>Don't worry, it's worth the wait... :)</p>";},7500);
+                setTimeout(function(){document.querySelector(".Loader").innerHTML="<p>As you have a limited free account, you will have to wait 2 seconds to begin...</p><div style='font-size:130px;'>Loading..</div><p>Don't worry, it's worth the wait... :)</p>";},8000);
+                setTimeout(function(){document.querySelector(".Loader").innerHTML="<p>As you have a limited free account, you will have to wait 2 seconds to begin...</p><div style='font-size:130px;'>Loading...</div><p>Don't worry, it's worth the wait... :)</p>";},8500);
+                setTimeout(function(){document.querySelector(".Loader").innerHTML="<p>As you have a limited free account, you will have to wait 1 seconds to begin...</p><div style='font-size:130px;'>Loading.</div><p>Don't worry, it's worth the wait... :)</p>";},9000);
+                setTimeout(function(){document.querySelector(".Loader").innerHTML="<p>As you have a limited free account, you will have to wait 1 seconds to begin...</p><div style='font-size:130px;'>Loading..</div><p>Don't worry, it's worth the wait... :)</p>";},9500);
+                setTimeout(function(){document.querySelector(".Loader").innerHTML="<p>As you have a limited free account, you will have to wait 0 seconds to begin...</p><div style='font-size:130px;'>Loading...</div><p>Don't worry, it's worth the wait... :)</p>";},10000);
+}
 
 function uponload(){
     initializefalse();
