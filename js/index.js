@@ -1,5 +1,6 @@
 /*Actual Code*/
 uponload();
+Update_onlink();
 var GameType = 0;
 var StatementChoice=-1;
 var u = 1;
