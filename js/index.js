@@ -1,29 +1,59 @@
 /*Actual Code*/
-initializefalse();
-document.querySelector(".enterCommand").style.display="none";
-document.querySelector(".Loader").style.display="none";
-document.querySelector(".instructions").style.display="none";
-document.querySelector("#pimng").style.display="none";
-document.querySelector(".HuamanGames").style.display="none";
-document.querySelector(".identity").style.display="none";
-document.querySelector(".signup").style.display="none";
-document.body.style.background="url(https://static.pexels.com/photos/210186/pexels-photo-210186.jpeg)";
+uponload();
 var GameType = 0;
 var StatementChoice=-1;
+var u = 1;
 var canvas = document.querySelector('canvas');
 var usernames = [];
 var passwords = [];
 canvas.width = "0px";
 canvas.height = "0px";
 
-RunMainPage();//Run mainpage
+function Update_onlink(){
+    if (window.location=="https://huamangames.github.io/home/"){
+        RunMainPage();//Run homepage if the link is the homepage link
+    }
+    if (window.location=="https://huamangames.github.io/login/"){
+        UserBoxEditTrue();//Run homepage if the link is the homepage link
+    }
+    if (window.location=="https://huamangames.github.io/signup/"){
+        CreateUserBoxEditTrue();//Run homepage if the link is the homepage link
+    }
+    if (window.location=="https://huamangames.github.io/resources.a8h2_HuamanGames/"){
+        document.querySelector("#congrats").innerHTML="Congratulations, but...";
+        console.log("Wow, you found me. Stop looking for trouble...");//Congratulations
+    }
+}
 
 document.querySelector('.subtn').onclick = function() {
     CreateUserBoxEditTrue();
 };
 document.querySelector(".mainpart").onclick = function() {
-    UserBoxEditTrue();
+    if (u === 1){
+        UserBoxEditTrue();
+        u++;
+    }else if (u === 2){
+        uponload();
+        u=1;
+    }
 };
+
+function uponload(){
+    initializefalse();
+    Update_onlink();
+    document.querySelector(".allb4login").style.display="none";
+    document.querySelector(".libtn").style.display="none";
+    document.querySelector(".subtn").style.display="none";
+    document.querySelector(".enterCommand").style.display="none";
+    document.querySelector(".Loader").style.display="none";
+    document.querySelector(".instructions").style.display="none";
+    document.querySelector("#pimng").style.display="none";
+    document.querySelector(".HuamanGames").style.display="none";
+    document.querySelector(".identity").style.display="none";
+    document.querySelector(".signup").style.display="none";
+    document.body.style.background="url(https://static.pexels.com/photos/210186/pexels-photo-210186.jpeg)";
+}
+
 document.querySelector('.libtn').onclick = function() {
     UserBoxEditTrue();
 };
