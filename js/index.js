@@ -137,11 +137,17 @@ function signupdata(){
         usernames=[];
         passwords=[];
     }
-    //Add the new temporary username and password
-    usernames.push(document.querySelector(".CreateUsernameBox").innerHTML);
-    passwords.push(document.querySelector(".CreatePasswordBox").value);
-    document.querySelector(".quoteinfo").innerHTML="Your temporary username(s) is/are <div style='font-weight:40px;font-size:50px'>" + usernames + "</div> and your password(s) is/are <div style='font-weight:40px;font-size:50px'>" + passwords + "</div>";
-    UserBoxEditTrue();
+    if (usernames[0]==""){document.querySelector(".quoteinfo2").innerHTML="Your username is too short!"}
+    if (passwords[0]==""){document.querySelector(".quoteinfo2").innerHTML="Your password is too short!"}
+    if (usernames[0]=="" && passwords[0]==""){document.querySelector(".quoteinfo2").innerHTML="Your username and password is too short!"}
+    
+    if (usernames[0]!="" || passwords[0]!=""){
+        //Add the new temporary username and password
+        usernames.push(document.querySelector(".CreateUsernameBox").innerHTML);
+        passwords.push(document.querySelector(".CreatePasswordBox").value);
+        document.querySelector(".quoteinfo").innerHTML="Your temporary username(s) is/are <div style='font-weight:40px;font-size:50px'>" + usernames + "</div> and your password(s) is/are <div style='font-weight:40px;font-size:50px'>" + passwords + "</div>";
+        UserBoxEditTrue();
+    }
 }
 function CreateUserBoxEditTrue(){
     
