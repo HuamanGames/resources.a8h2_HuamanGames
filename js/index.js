@@ -130,8 +130,6 @@ function _helpcontrols(){
     setTimeout(TextBoxEditTrue, 500);
 }
 function signupdata(){
-    document.querySelector(".identity").style.display="block";
-    document.querySelector(".signup").style.display="none";
     //Get rid of any old usernames and passwords
     if (usernames.length==2||passwords.length==2){
         usernames=[];
@@ -176,6 +174,7 @@ function UserBoxEditTrue(){
     document.querySelector(".UsernameBox").contentEditable=true;
     document.querySelector(".PasswordBox").contentEditable=true;
     document.querySelector(".identity").style.display="block";
+    document.querySelector(".signup").style.display="none";
     document.querySelector(".enterCommand").style.display="none";
     document.querySelector(".instructions").style.display="none";
     document.querySelector("#pimng").style.display="none";
