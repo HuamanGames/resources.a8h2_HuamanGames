@@ -1,8 +1,3 @@
-/**
-	Basic bounding box collision object.
-	Code by Rob Kleffner, 2011
-*/
-
 Enjine.Collideable = function(obj, width, height, collisionEvent) {
     this.Base = obj;
     this.X = obj.X;
