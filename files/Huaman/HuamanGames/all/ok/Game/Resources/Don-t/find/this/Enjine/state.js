@@ -1,7 +1,3 @@
-/**
-	Simple State pattern implementation for game states.
-	Code by Rob Kleffner, 2011
-*/
 
 Enjine.GameStateContext = function(defaultState) {
     this.State = null;
