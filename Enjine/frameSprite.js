@@ -1,8 +1,3 @@
-/**
-	For sprites that are only a portion of an image.
-	Code by Rob Kleffner, 2011
-*/
-
 Enjine.FrameSprite = function() {
     this.FrameX = 0;
     this.FrameY = 0;
