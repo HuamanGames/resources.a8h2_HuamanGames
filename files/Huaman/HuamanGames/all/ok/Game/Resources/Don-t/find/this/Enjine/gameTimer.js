@@ -1,8 +1,3 @@
-/**
-	Represents a very basic game timer.
-	Code by Rob Kleffner, 2011
-*/
-
 Enjine.GameTimer = function() {
     this.FramesPerSecond = 1000 / 30;
 	this.LastTime = 0;
