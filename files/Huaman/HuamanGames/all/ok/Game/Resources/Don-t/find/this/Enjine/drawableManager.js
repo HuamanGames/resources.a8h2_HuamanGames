@@ -2,22 +2,18 @@ Enjine.DrawableManager = function() {
 	this.Unsorted = true;
 	this.Objects = [];
 };
-
 Enjine.DrawableManager.prototype = {
     Add: function(object) {
 		this.Objects.push(object);
 		this.Unsorted = true;
 	},
-	
 	AddRange: function(objects) {
 		this.Objects = this.Objects.concat(objects);
 		this.Unsorted = true;
 	},
-	
 	Clear: function() {
 		this.Objects.splice(0, this.Objects.length);
 	},
-    
     Contains: function(obj) {
         var i = this.Objects.length;
         while (i--) {
