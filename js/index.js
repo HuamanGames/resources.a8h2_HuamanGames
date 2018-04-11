@@ -1,6 +1,5 @@
 /*Actual Code*/
 uponload();             //This hides everything when the page is loaded...
-Update_onlink();        //This chooses what task the website should perform depending on the link in use...
 var GameType = 0;
 var StatementChoice=-1;
 var u = 1;
@@ -76,7 +75,7 @@ function Unpriviledged_StayLoggedin(){
 
 function uponload(){
     initializefalse();
-    Update_onlink();
+    Update_onlink();//This chooses what task the website should perform depending on the link in use...
     document.querySelector(".allb4login").style.display="none";
     document.querySelector(".libtn").style.display="none";
     document.querySelector(".subtn").style.display="none";
@@ -139,7 +138,7 @@ function signupdata(){
     if (passwords[0]==""){document.querySelector(".quoteinfo2").innerHTML="Your password is too short!"}
     if (usernames[0]=="" && passwords[0]==""){document.querySelector(".quoteinfo2").innerHTML="Your username and password is too short!"}
     
-    if (usernames[0]!="" || passwords[0]!=""){
+    if (usernames[0]!="" && passwords[0]!=""){
         //Add the new temporary username and password
         usernames.push(document.querySelector(".CreateUsernameBox").innerHTML);
         passwords.push(document.querySelector(".CreatePasswordBox").value);
