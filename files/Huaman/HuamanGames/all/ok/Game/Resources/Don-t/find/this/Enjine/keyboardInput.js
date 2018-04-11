@@ -30,7 +30,6 @@ Enjine.Keys = {
     Right: 76,
     Down: 75
 };
-
 Enjine.KeyboardInput = {
     Pressed: new Array(),
     
