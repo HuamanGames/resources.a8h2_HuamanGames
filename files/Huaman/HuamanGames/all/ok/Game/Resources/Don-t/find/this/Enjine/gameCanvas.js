@@ -1,5 +1,3 @@
-
-
 Enjine.GameCanvas = function() {
 	this.Canvas = null;
 	this.Context2D = null;
