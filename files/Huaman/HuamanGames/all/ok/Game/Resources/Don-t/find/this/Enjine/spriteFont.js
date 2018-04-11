@@ -5,7 +5,6 @@ Enjine.SpriteFont = function(strings, image, letterWidth, letterHeight, letters)
     this.LetterHeight = letterHeight;
     this.Strings = strings;
 };
-
 Enjine.SpriteFont.prototype = new Enjine.Drawable();
 
 Enjine.SpriteFont.prototype.Draw = function(context, camera) {
