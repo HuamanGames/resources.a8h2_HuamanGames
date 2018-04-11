@@ -1,8 +1,3 @@
-/**
-	Represents a simple static sprite.
-	Code by Rob Kleffner, 2011
-*/
-
 Enjine.Resources = {
     Images: {},
     Sounds: {},
