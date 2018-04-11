@@ -7,7 +7,6 @@ Enjine.AnimationSequence = function(startRow, startColumn, endRow, endColumn) {
     this.StartColumn = startColumn;
     this.EndRow = endRow;
     this.EndColumn = endColumn;
-    
     //sometimes in an animated sprite, we want it to behave like a regular sprite (static)
     //this variable will keep it from wasting time updating animation when the sequence
     //is only a single frame long, for things like standing or pausing action
