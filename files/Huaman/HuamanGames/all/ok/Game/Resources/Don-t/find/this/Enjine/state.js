@@ -1,4 +1,3 @@
-
 Enjine.GameStateContext = function(defaultState) {
     this.State = null;
     
