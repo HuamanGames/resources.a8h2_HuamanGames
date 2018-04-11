@@ -4,7 +4,6 @@ Enjine.Sprite = function() {
 	this.Y = 0;
 	this.Image = null;
 };
-
 Enjine.Sprite.prototype = new Enjine.Drawable();
 
 Enjine.Sprite.prototype.Draw = function(context, camera) {
