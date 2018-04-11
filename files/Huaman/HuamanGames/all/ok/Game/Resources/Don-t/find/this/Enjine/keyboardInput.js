@@ -1,8 +1,3 @@
-/**
-	Class that helps to manage keyboard input.
-	Code by Rob Kleffner, 2011
-*/
-
 Enjine.Keys = {
     A: 65,
     B: 66,
