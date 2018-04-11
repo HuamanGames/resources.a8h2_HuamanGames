@@ -1,8 +1,3 @@
-/**
-	Simple demo of the engine.
-	Code by Rob Kleffner, 2011
-*/
-
 Enjine.Application = function() {
     this.canvas = null;
     this.timer = null;
