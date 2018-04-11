@@ -1,8 +1,3 @@
-/**
-	Class to help manage and draw a collection of sprites.
-	Code by Rob Kleffner, 2011
-*/
-
 Enjine.DrawableManager = function() {
 	this.Unsorted = true;
 	this.Objects = [];
