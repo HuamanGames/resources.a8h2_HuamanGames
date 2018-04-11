@@ -4,7 +4,6 @@ Enjine.FrameSprite = function() {
 	this.FrameWidth = 0;
     this.FrameHeight = 0;
 };
-
 Enjine.FrameSprite.prototype = new Enjine.Sprite();
 
 Enjine.FrameSprite.prototype.Draw = function(context, camera) {
