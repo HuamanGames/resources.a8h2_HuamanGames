@@ -8,7 +8,7 @@ Enjine.Resources = {
         return this;
     },
     
-    //***********************/
+   //***********************/
     //Images
     AddImage: function(name, src) {
         var tempImage = new Image();
