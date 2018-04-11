@@ -1,8 +1,3 @@
-/**
-	Represents a sprite sheet for a font.
-	Code by Rob Kleffner, 2011
-*/
-
 Enjine.SpriteFont = function(strings, image, letterWidth, letterHeight, letters) {
     this.Image = image;
     this.Letters = letters;
