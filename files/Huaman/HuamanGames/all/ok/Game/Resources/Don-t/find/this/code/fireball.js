@@ -1,8 +1,3 @@
-/**
-	Represents a fireball.
-	Code by Rob Kleffner, 2011
-*/
-
 Mario.Fireball = function(world, x, y, facing) {
 	this.GroundInertia = 0.89;
 	this.AirInertia = 0.89;
