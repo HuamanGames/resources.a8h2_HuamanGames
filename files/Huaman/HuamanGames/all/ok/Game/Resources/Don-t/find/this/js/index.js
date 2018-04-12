@@ -16,7 +16,7 @@ function Update_onlink(){
     if (window.location=="https://huamangames.github.io/login/"){
         UserBoxEditTrue();//Run homepage if the link is the homepage link
     }
-    if (window.location=="https://huamangames.github.io/signup/"  || window.location=="file:///home/chronos/u-653567c5163ae1a5f581539387f9fe31163b9e0d/Downloads/HuamanGames/signup/index.html"){
+    if (window.location=="https://huamangames.github.io/signup/"){
         CreateUserBoxEditTrue();//Run homepage if the link is the homepage link
     }
     if (window.location=="https://huamangames.github.io/resources.a8h2_HuamanGames/files/Huaman/HuamanGames/all/ok/Game/Resources/Don-t/find/this/i/in/ind/inde/index/index./index.h/index.ht/index.htm/index.html/"){
