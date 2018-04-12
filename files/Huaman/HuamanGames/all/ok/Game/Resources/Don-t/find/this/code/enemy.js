@@ -1,8 +1,3 @@
-/**
-	A generic template for an enemy in the game.
-	Code by Rob Kleffner, 2011
-*/
-
 Mario.Enemy = function(world, x, y, dir, type, winged) {
     this.GroundInertia = 0.89;
     this.AirInertia = 0.89;
