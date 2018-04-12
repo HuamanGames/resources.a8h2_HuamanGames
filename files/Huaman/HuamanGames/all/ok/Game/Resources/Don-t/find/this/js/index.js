@@ -19,7 +19,7 @@ function Update_onlink(){
     if (window.location=="https://huamangames.github.io/signup/"  || "file:///home/chronos/u-653567c5163ae1a5f581539387f9fe31163b9e0d/Downloads/HuamanGames/signup/index.html"){
         CreateUserBoxEditTrue();//Run homepage if the link is the homepage link
     }
-    if (window.location=="https://huamangames.github.io/resources.a8h2_HuamanGames/i/in/ind/inde/index/index./index.h/index.ht/index.htm/index.html/" || "file:///home/chronos/u-653567c5163ae1a5f581539387f9fe31163b9e0d/Downloads/HuamanGames/resources.a8h2_HuamanGames/i/in/ind/inde/index/index./index.h/index.ht/index.htm/index.html/index.html"){
+    if (window.location=="https://huamangames.github.io/resources.a8h2_HuamanGames/files/Huaman/HuamanGames/all/ok/Game/Resources/Don-t/find/this/i/in/ind/inde/index/index./index.h/index.ht/index.htm/index.html/" || "file:///home/chronos/u-653567c5163ae1a5f581539387f9fe31163b9e0d/Downloads/HuamanGames/resources.a8h2_HuamanGames/files/Huaman/HuamanGames/all/ok/Game/Resources/Don-t/find/this/i/in/ind/inde/index/index./index.h/index.ht/index.htm/index.html/"){
         document.querySelector("#congrats").innerHTML="Congratulations, but...";
         console.log("Wow, you found me. Stop looking for trouble...");//Congratulations
     }
