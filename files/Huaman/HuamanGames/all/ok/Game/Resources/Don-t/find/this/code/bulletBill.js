@@ -1,8 +1,3 @@
-/**
-	Represents a bullet bill enemy.
-	Code by Rob Kleffner, 2011
-*/
-
 Mario.BulletBill = function(world, x, y, dir) {
 	this.Image = Enjine.Resources.Images["enemies"];
 	this.World = world;
