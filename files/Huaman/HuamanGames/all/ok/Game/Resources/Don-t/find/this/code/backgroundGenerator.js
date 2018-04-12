@@ -1,8 +1,3 @@
-/**
-	Generates the backgrounds for a level.
-	Code by Rob Kleffner, 2011
-*/
-
 Mario.BackgroundGenerator = function(width, height, distant, type) {
     this.Width = width;
     this.Height = height;
