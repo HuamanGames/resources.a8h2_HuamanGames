@@ -1,8 +1,3 @@
-/**
-	Represents a simple little coin animation when popping out of the box.
-	Code by Rob Kleffner, 2011
-*/
-
 Mario.CoinAnim = function(world, x, y) {
     this.World = world;
     this.Life = 10;
