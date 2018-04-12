@@ -1,8 +1,3 @@
-/**
-	Renders a background portion of the level.
-	Code by Rob Kleffner, 2011
-*/
-
 Mario.BackgroundRenderer = function(level, width, height, distance) {
     this.Level = level;
     this.Width = width;
