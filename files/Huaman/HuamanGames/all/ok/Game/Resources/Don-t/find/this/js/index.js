@@ -389,43 +389,43 @@ function GameSelectUpdate(){
             document.querySelector("body").style.background="#b4d5c2";
         break;
         case "_Snake":
-            window.location.href = "assets/index.html";
+            window.location.href = "https://huamangames.github.io/resources.a8h2_HuamanGames/files/Huaman/HuamanGames/all/ok/Game/Resources/Don-t/find/this/assets/index.html";
         break;
         case "_BallMove":
-            window.location.href = "GITHUB_Games/SWAP!!/index.html";
+            window.location.href = "https://huamangames.github.io/resources.a8h2_HuamanGames/GITHUB_Games/SWAP!!/index.html";
         break;
         case "_2048:Starwars":
-            window.location.href = "GITHUB_Games/STERWURS/index.html";
+            window.location.href = "https://huamangames.github.io/resources.a8h2_HuamanGames/GITHUB_Games/STERWURS/index.html";
         break;
         case "_Hextris":
-            window.location.href = "GITHUB_Games/HEXTRIS/index.html";
+            window.location.href = "https://huamangames.github.io/resources.a8h2_HuamanGames/GITHUB_Games/HEXTRIS/index.html";
         break;
         case "_Coil":
-            window.location.href = "GITHUB_Games/Coil-master/index.html";
+            window.location.href = "https://huamangames.github.io/resources.a8h2_HuamanGames/GITHUB_Games/Coil-master/index.html";
         break;
         case "_FlappyBird":
-            window.location.href = "GITHUB_Games/FLEPPYBERD/index.html";
+            window.location.href = "https://huamangames.github.io/resources.a8h2_HuamanGames/GITHUB_Games/FLEPPYBERD/index.html";
         break;
         case "_Connect4":
-            window.location.href = "GITHUB_Games/c4-master/index.html";
+            window.location.href = "https://huamangames.github.io/resources.a8h2_HuamanGames/GITHUB_Games/c4-master/index.html";
         break;
         case "_Tetris":
-            window.location.href = "GITHUB_Games/custom-tetris-master/index.html";
+            window.location.href = "https://huamangames.github.io/resources.a8h2_HuamanGames/GITHUB_Games/custom-tetris-master/index.html";
         break;
         case "_Digger":
-            window.location.href = "GITHUB_Games/Digger-master/index.html";
+            window.location.href = "https://huamangames.github.io/resources.a8h2_HuamanGames/GITHUB_Games/Digger-master/index.html";
         break;
         case "_2048:MEME":
-            window.location.href = "GITHUB_Games/MEME/LVL 1/index.html";
+            window.location.href = "https://huamangames.github.io/resources.a8h2_HuamanGames/GITHUB_Games/MEME/LVL 1/index.html";
         break;
         case "_OhNo":
-            window.location.href = "GITHUB_Games/OH, NO!/index.html";
+            window.location.href = "https://huamangames.github.io/resources.a8h2_HuamanGames/GITHUB_Games/OH, NO!/index.html";
         break;
         case "_OhHi":
-            window.location.href = "GITHUB_Games/OH, HI!/index.html";
+            window.location.href = "https://huamangames.github.io/resources.a8h2_HuamanGames/GITHUB_Games/OH, HI!/index.html";
         break;
         case "_PacMan":
-            window.location.href = "GITHUB_Games/PECMEN/index.html";
+            window.location.href = "https://huamangames.github.io/resources.a8h2_HuamanGames/GITHUB_Games/PECMEN/index.html";
         break;
         case "_help":
             document.querySelector(".instructions").innerHTML='<p onclick="_helpcommands();">_help:commands</p><p onclick="_helpcontrols();">_help:controls</p>';
