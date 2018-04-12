@@ -10,20 +10,20 @@ canvas.width = "0px";
 canvas.height = "0px";
 
 function Update_onlink(){
-    if (window.location=="https://huamangames.github.io/home/" || window.location=="file:///home/chronos/u-653567c5163ae1a5f581539387f9fe31163b9e0d/Downloads/HuamanGames/home/index.html"){
+    if (window.location=="https://huamangames.github.io/home/"){
         RunMainPage();//Run homepage if the link is the homepage link
     }
-    if (window.location=="https://huamangames.github.io/login/" || window.location=="file:///home/chronos/u-653567c5163ae1a5f581539387f9fe31163b9e0d/Downloads/HuamanGames/login/index.html"){
+    if (window.location=="https://huamangames.github.io/login/"){
         UserBoxEditTrue();//Run homepage if the link is the homepage link
     }
     if (window.location=="https://huamangames.github.io/signup/"  || window.location=="file:///home/chronos/u-653567c5163ae1a5f581539387f9fe31163b9e0d/Downloads/HuamanGames/signup/index.html"){
         CreateUserBoxEditTrue();//Run homepage if the link is the homepage link
     }
-    if (window.location=="https://huamangames.github.io/resources.a8h2_HuamanGames/files/Huaman/HuamanGames/all/ok/Game/Resources/Don-t/find/this/i/in/ind/inde/index/index./index.h/index.ht/index.htm/index.html/" || window.location=="file:///home/chronos/u-653567c5163ae1a5f581539387f9fe31163b9e0d/Downloads/HuamanGames/resources.a8h2_HuamanGames/files/Huaman/HuamanGames/all/ok/Game/Resources/Don-t/find/this/i/in/ind/inde/index/index./index.h/index.ht/index.htm/index.html/"){
+    if (window.location=="https://huamangames.github.io/resources.a8h2_HuamanGames/files/Huaman/HuamanGames/all/ok/Game/Resources/Don-t/find/this/i/in/ind/inde/index/index./index.h/index.ht/index.htm/index.html/"){
         document.querySelector("#congrats").innerHTML="Congratulations, but...";
         console.log("Wow, you found me. Stop looking for trouble...");//Congratulations
     }
-    if (window.location=="https://huamangames.github.io/stay_loggedin-ca10472936h982810MmNk37127o162neriq639282-r829v238-HuamanGames/" || window.location=="file:///home/chronos/u-653567c5163ae1a5f581539387f9fe31163b9e0d/Downloads/HuamanGames/stay_loggedin-ca10472936h982810MmNk37127o162neriq639282-r829v238-HuamanGames/index.html"){
+    if (window.location=="https://huamangames.github.io/stay_loggedin-ca10472936h982810MmNk37127o162neriq639282-r829v238-HuamanGames/"){
         Unpriviledged_StayLoggedin();
     }
     
