@@ -1,8 +1,3 @@
-/**
-	Represents a fire powerup.
-	Code by Rob Kleffner, 2011
-*/
-
 Mario.FireFlower = function(world, x, y) {
 	this.Width = 4;
 	this.Height = 24;
