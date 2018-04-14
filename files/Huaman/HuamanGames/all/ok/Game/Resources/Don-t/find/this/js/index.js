@@ -10,21 +10,26 @@ canvas.width = "0px";
 canvas.height = "0px";
 
 function Update_onlink(){
-    if (window.location=="https://huamangames.github.io/home/"){
-        RunMainPage();//Run homepage if the link is the homepage link
-    }
-    if (window.location=="https://huamangames.github.io/login/"){
-        UserBoxEditTrue();//Run homepage if the link is the homepage link
-    }
-    if (window.location=="https://huamangames.github.io/signup/"){
-        CreateUserBoxEditTrue();//Run homepage if the link is the homepage link
-    }
-    if (window.location=="https://huamangames.github.io/resources.a8h2_HuamanGames/files/Huaman/HuamanGames/all/ok/Game/Resources/Don-t/find/this/i/in/ind/inde/index/index./index.h/index.ht/index.htm/index.html/"){
-        document.querySelector("#congrats").innerHTML="Congratulations, but...";
-        console.log("Wow, you found me. Stop looking for trouble...");//Congratulations
-    }
-    if (window.location=="https://huamangames.github.io/stay_loggedin-ca10472936h982810MmNk37127o162neriq639282-r829v238-HuamanGames/"){
-        Unpriviledged_StayLoggedin();
+    var locat = window.location;
+    switch (locat){
+        case "https://huamangames.github.io/home/":
+            RunMainPage();//Run homepage if the link is the homepage link
+            break;
+        case "https://huamangames.github.io/login/":
+            UserBoxEditTrue();//Run login if the link is the login link
+            break;
+        case "https://huamangames.github.io/signup/":
+            CreateUserBoxEditTrue();//Run Signup if the link is the Signup link
+            break;
+        case "https://huamangames.github.io/resources.a8h2_HuamanGames/files/Huaman/HuamanGames/all/ok/Game/Resources/Don-t/find/this/i/in/ind/inde/index/index./index.h/index.ht/index.htm/index.html/":
+            document.querySelector("#congrats").innerHTML="Congratulations, but...";
+            console.log("Wow, you found me. Stop looking for trouble...");//Congratulations
+            break;
+        case "https://huamangames.github.io/stay_loggedin-ca10472936h982810MmNk37127o162neriq639282-r829v238-HuamanGames/":
+            Unpriviledged_StayLoggedin();
+            break;
+        default:
+            document.body.innerHTML="Oops, that was not a link."
     }
     
 }
