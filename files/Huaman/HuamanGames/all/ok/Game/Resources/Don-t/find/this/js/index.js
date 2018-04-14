@@ -29,7 +29,7 @@ function Update_onlink(){
             Unpriviledged_StayLoggedin();
             break;
         default:
-            document.body.innerHTML="<p>Oops, that link is temporarily disabled. Be sure to come back later and check for an update!</p><h1 style='font-size:100px;'>HuamanGames Breakdown Error :)</h1>"
+            document.body.innerHTML="<div><p>Oops, that link is temporarily disabled. Be sure to come back later and check for an update!</p></div><div><h1 style='font-size:100px;'>HuamanGames Breakdown Error :)</h1></div>"
     }
     
 }
