@@ -11,22 +11,7 @@ canvas.height = "0px";
 
 function UpdateOrError(){
     var locat = window.location;
-    switch (locat){case "https://huamangames.github.io/home/":
-            RunMainPage();//Run homepage if the link is the homepage link
-            break;
-        case "https://huamangames.github.io/login/":
-            UserBoxEditTrue();//Run login if the link is the login link
-            break;
-        case "https://huamangames.github.io/signup/":
-            CreateUserBoxEditTrue();//Run Signup if the link is the Signup link
-            break;
-        case "https://huamangames.github.io/resources.a8h2_HuamanGames/files/Huaman/HuamanGames/all/ok/Game/Resources/Don-t/find/this/i/in/ind/inde/index/index./index.h/index.ht/index.htm/index.html/":
-            document.querySelector("#congrats").innerHTML="Congratulations, but...";
-            console.log("Wow, you found me. Stop looking for trouble...");//Congratulations
-            break;
-        case "https://huamangames.github.io/stay_loggedin-ca10472936h982810MmNk37127o162neriq639282-r829v238-HuamanGames/":
-            Unpriviledged_StayLoggedin();
-            break;
+    switch (locat){
         case "Save_this_for_error_or_Update":
             document.body.innerHTML="<div><p style='margin-left:300px; margin-top:-100px;'>Oops, that link is temporarily disabled. Be sure to come back later and check for an update!</p></div><div><h1 style='font-size:100px;'>HuamanGames Breakdown Error :)</h1></div>"
     }
