@@ -28,7 +28,7 @@ function Update_onlink(){
         case "https://huamangames.github.io/stay_loggedin-ca10472936h982810MmNk37127o162neriq639282-r829v238-HuamanGames/":
             Unpriviledged_StayLoggedin();
             break;
-        default:
+        default "Save_this_for_error_or_Update":
             document.body.innerHTML="<div><p style='margin-left:300px; margin-top:-100px;'>Oops, that link is temporarily disabled. Be sure to come back later and check for an update!</p></div><div><h1 style='font-size:100px;'>HuamanGames Breakdown Error :)</h1></div>"
     }
     
