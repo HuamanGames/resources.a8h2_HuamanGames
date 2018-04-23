@@ -12,8 +12,8 @@ canvas.height = "0px";
 function UpdateOrError(){
     var locat = window.location;
     switch (locat){
-        case "Save_this_for_error_or_Update":
-            document.body.innerHTML="<div><p style='margin-left:300px; margin-top:-100px;'>Oops, that link is temporarily disabled. Be sure to come back later and check for an update!</p></div><div><h1 style='font-size:100px;'>HuamanGames Breakdown Error :)</h1></div>"
+        default:
+            document.body.innerHTML="<div><p style='margin-left:300px; margin-top:-100px;'>Oops, HuamanGames could not be finished over the weekend! Be sure to come back later and check for an update!</p></div><div><h1 style='font-size:100px;'>HuamanGames Breakdown Error :)</h1></div>"
     }
     
 }
