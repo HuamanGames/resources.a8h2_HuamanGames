@@ -1,7 +1,3 @@
-/**
-	Generates a psuedo-random procedural level.
-	Code by Rob Kleffner, 2011
-*/
 
 Mario.LevelGenerator = function(width, height) {
     this.Width = width;
