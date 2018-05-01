@@ -13,7 +13,7 @@ function UpdateOrError(){
     var locat = window.location;
     switch (locat){
         default:
-            document.body.innerHTML="<img src='https://nhnet.github.io/img/NH NET AVATAR.png'><div><p style='margin-left:300px; margin-top:-100px;'>HuamanGames is moving to NH Net Browser!</p></div><div><h1 style='font-size:100px;'>HuamanGames :)</h1></div>"
+            document.body.innerHTML="<img width='300px' src='https://nhnet.github.io/img/NH NET AVATAR.png'><div><p style='margin-left:300px; margin-top:-100px;'>HuamanGames is moving to NH Net Browser!</p></div><div><h1 style='font-size:100px;'>HuamanGames :)</h1></div>"
     }
     
 }
