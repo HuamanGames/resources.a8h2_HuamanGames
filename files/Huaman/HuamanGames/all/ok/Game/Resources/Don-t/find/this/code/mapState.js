@@ -1,8 +1,3 @@
-/**
-	State for moving between different playable levels.
-	Code by Rob Kleffner, 2011
-*/
-
 Mario.MapTile = {
     Grass: 0,
     Water: 1,
