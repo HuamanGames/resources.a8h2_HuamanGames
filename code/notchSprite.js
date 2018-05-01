@@ -1,7 +1,6 @@
 /**
-	Notch made his own sprite class for this game. Rather than hack around my own,
-    I directly ported his to JavaScript and used that where needed.
-	Code by Rob Kleffner, 2011
+	Notch (Creator of Minecraft) made his own sprite class for this game. Rather than hack around my own,
+    	I directly ported his to JavaScript and used that where needed.
 */
 
 Mario.NotchSprite = function(image) {
