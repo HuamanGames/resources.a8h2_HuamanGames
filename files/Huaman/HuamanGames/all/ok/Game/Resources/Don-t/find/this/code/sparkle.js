@@ -1,7 +1,3 @@
-/**
-	Represents a little sparkle object in the game.
-	Code by Rob Kleffner, 2011
-*/
 
 Mario.Sparkle = function(world, x, y, xa, ya) {
     this.World = world;
