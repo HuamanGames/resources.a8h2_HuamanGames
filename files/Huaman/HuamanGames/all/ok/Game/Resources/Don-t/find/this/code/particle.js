@@ -1,7 +1,3 @@
-/**
-	Represents a piece of a broken block.
-	Code by Rob Kleffner, 2011
-*/
 
 Mario.Particle = function(world, x, y, xa, ya, xPic, yPic) {
 	this.World = world;
