@@ -1,6 +1,5 @@
 /**
-	Represents a life-giving mushroom.
-	Code by Rob Kleffner, 2011
+	Represents a life-giving mushroom. How silly can Mario get?
 */
 
 Mario.Mushroom = function(world, x, y) {
