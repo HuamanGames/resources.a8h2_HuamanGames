@@ -1,7 +1,3 @@
-/**
-	State for actually playing a randomly generated level.
-	Code by Rob Kleffner, 2011
-*/
 
 Mario.LevelState = function(difficulty, type) {
     this.LevelDifficulty = difficulty;
