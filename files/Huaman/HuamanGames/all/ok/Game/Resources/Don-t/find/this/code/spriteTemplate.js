@@ -1,8 +1,3 @@
-/**
-	Creates a specific type of sprite based on the information given.
-	Code by Rob Kleffner, 2011
-*/
-
 Mario.SpriteTemplate = function(type, winged) {
     this.Type = type;
     this.Winged = winged;
